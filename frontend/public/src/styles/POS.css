@@ -1,0 +1,12 @@
+/* POS.css */
+.pos-container { display: flex; gap: 20px; height: calc(100vh - 90px); }
+.pos-left { flex: 1; }
+.search-input { width: 100%; padding: 12px; font-size: 18px; }
+.search-results { background: white; border: 1px solid #ddd; max-height: 300px; overflow-y: auto; }
+.result-item { padding: 10px; cursor: pointer; display: flex; justify-content: space-between; }
+.result-item:hover { background: #e0e0e0; }
+.pos-right { width: 400px; background: white; padding: 15px; display: flex; flex-direction: column; }
+.cart { flex-grow: 1; overflow-y: auto; }
+.cart-item { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #eee; }
+.checkout-btn { background: #0d7c0d; font-size: 20px; padding: 15px; margin-top: 10px; }
+.message { color: green; font-weight: bold; }
